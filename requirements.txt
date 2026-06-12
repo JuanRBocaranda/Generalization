@@ -1,14 +1,23 @@
-pandas
-Pillow
-torch
-torchvision
-numpy
-opencv-python
-matplotlib
-PyYAML
-seaborn
-scikit-learn
-jupyter
-ipykernel
-openpyxl
-streamlit
+# Core ML & Vision
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.7.0
+Pillow>=9.0.0
+
+# Data Manipulation & Metrics
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+openpyxl>=3.1.0
+
+# Configuration & Utilities
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# Jupyter (for EDA)
+jupyter>=1.0.0
+ipykernel>=6.0.0

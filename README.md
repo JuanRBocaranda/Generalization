@@ -1,61 +1,43 @@
-# Diabetic Retinopathy Cross-Dataset Generalization
+# Generalización Cruzada en Retinopatía Diabética (Módulos de Atención CBAM)
 
-This is a PyTorch machine learning research project for studying cross-dataset generalization of Convolutional Neural Networks (CNNs) on diabetic retinopathy detection across the APTOS, Messidor, and ODIR datasets.
+Este proyecto de investigación implementa un diseño experimental factorial exhaustivo en PyTorch para evaluar el impacto de los módulos de atención convolucional (CBAM) en la capacidad de generalización cruzada de redes neuronales (ResNet-50).
 
-## Project Structure
+El estudio entrena, evalúa y cruza matrices de resultados utilizando tres bases de datos públicas de retinopatía diabética: **APTOS 2019**, **Messidor-2** y **ODIR-5K**.
 
-*   **`config.yaml`**: Centralized configuration for datasets, hyperparameters, and models.
-*   **`datasets/`**: Custom PyTorch dataset loaders that standardize labels to a 0-4 severity scale.
-*   **`preprocessing/`**: torchvision pipelines for image resizing, normalization, and augmentation.
-*   **`models/`**: Implementations of a custom SimpleCNN and a transfer learning ResNet50 model.
-*   **`training/`**: A reusable training engine featuring an epoch loop, early stopping, and model checkpointing.
-*   **`evaluation/`**: Metrics computation (Accuracy, Precision, Recall, F1, ROC AUC) and confusion matrix visualization.
-*   **`interpretability/`**: Generates Grad-CAM heatmaps to visualize the target layers of the CNN.
-*   **`experiments/`**: Ready-to-run scripts testing various cross-dataset generalization scenarios.
+## 📁 Estructura Final del Proyecto
 
-## Running Experiments
+*   **`config_factorial.yaml`**: Orquestador principal del proyecto. Define los hiperparámetros, datasets, particiones (splits) balanceadas de entrenamiento, y la configuración arquitectónica (Base vs. CBAM).
+*   **`experiments/run_factorial_experiments.py`**: Script maestro que ejecuta las 54 combinaciones del experimento factorial (Dataset × Arquitectura × Semilla).
+*   **`experiments/extract_dashboard_data.py`**: Script que extrae, consolida métricas (F1, Accuracy, AUC) y genera las imágenes GradCAM para el dashboard en PowerBI.
+*   **`factorial/`**: Módulos de orquestación centralizada, utilidades de ploteo, balanceo de clases y reportes.
+*   **`models/`**: Arquitecturas de red neuronal base y la inyección dinámica de capas de atención (ResNet-50 + CBAM).
+*   **`interpretability/`**: Implementación de GradCAM para construir los mapas térmicos de interpretabilidad.
+*   **`outputs/`**: Carpeta de salida principal. Aquí se almacenan los modelos entrenados, logs de épocas, la matriz maestra de resultados (`dashboard_data.json`) y las imágenes del visor unificadas (`dashboard_images/`).
 
-Update `config.yaml` with your local dataset paths, then execute the experiment scripts from the project root:
+## 🚀 Cómo Ejecutar
 
-```bash
-# Train on APTOS, evaluate on Messidor
-python experiments/exp1_aptos_to_messidor.py
+1. **Instalar Dependencias**
+   Asegúrate de tener un entorno virtual activo y Python 3.9+ instalado.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Train on Messidor, evaluate on APTOS
-python experiments/exp2_messidor_to_aptos.py
+2. **Preparar los Datos**
+   Asegúrate de que las imágenes de los datasets y sus archivos CSV se encuentren en la carpeta `datasets/` o `data/processed/`, respetando la estructura definida en `config_factorial.yaml`.
 
-# Train on APTOS + Messidor, evaluate on ODIR
-python experiments/exp3_both_to_odir.py
-```
+3. **Ejecutar el Experimento Factorial**
+   Inicia el pipeline masivo de entrenamiento y validación cruzada.
+   ```bash
+   python experiments/run_factorial_experiments.py
+   ```
 
----
+4. **Generar los Datos para el Dashboard**
+   Una vez terminados los 54 entrenamientos, extrae los KPIs consolidados y las proyecciones GradCAM:
+   ```bash
+   python experiments/extract_dashboard_data.py
+   ```
+   *Esto generará el archivo `outputs/dashboard_data.json` y los emparejamientos visuales en `outputs/dashboard_images/`, los cuales están listos para ser ingestados en la herramienta de Inteligencia de Negocios.*
 
-# Generalización Cruzada de Conjuntos de Datos en Retinopatía Diabética
+## 📊 Integración con PowerBI
 
-Este es un proyecto de investigación de aprendizaje automático en PyTorch para estudiar la generalización cruzada de Redes Neuronales Convolucionales (CNNs) en la detección de retinopatía diabética a través de los conjuntos de datos APTOS, Messidor y ODIR.
-
-## Estructura del Proyecto
-
-*   **`config.yaml`**: Configuración centralizada para conjuntos de datos, hiperparámetros y modelos.
-*   **`datasets/`**: Cargadores de datos personalizados de PyTorch que estandarizan las etiquetas a una escala de gravedad de 0 a 4.
-*   **`preprocessing/`**: Pipelines de torchvision para el redimensionamiento, normalización y aumento de imágenes.
-*   **`models/`**: Implementaciones de una SimpleCNN personalizada y un modelo ResNet50 de aprendizaje por transferencia.
-*   **`training/`**: Un motor de entrenamiento reutilizable que incluye un bucle de épocas, parada temprana (early stopping) y guardado de puntos de control (checkpointing) del modelo.
-*   **`evaluation/`**: Cálculo de métricas (Precisión, Exhaustividad, F1, ROC AUC) y visualización de matrices de confusión.
-*   **`interpretability/`**: Genera mapas de calor Grad-CAM para visualizar las activaciones de las CNNs.
-*   **`experiments/`**: Scripts listos para ejecutar que prueban varios escenarios de generalización cruzada.
-
-## Ejecución de Experimentos
-
-Actualice el archivo `config.yaml` con las rutas locales de sus conjuntos de datos y luego ejecute los scripts de experimentos desde la raíz del proyecto:
-
-```bash
-# Entrenar en APTOS, evaluar en Messidor
-python experiments/exp1_aptos_to_messidor.py
-
-# Entrenar en Messidor, evaluar en APTOS
-python experiments/exp2_messidor_to_aptos.py
-
-# Entrenar en APTOS y Messidor, evaluar en ODIR
-python experiments/exp3_both_to_odir.py
-```
+El pipeline final genera un formato tabular de resultados (`results_summary.csv`) junto a un modelo estructurado en JSON (`dashboard_data.json`). Estos elementos alimentan el archivo `.pbix` del repositorio, exponiendo de manera interactiva visualizaciones sobre sesgos, brechas de Accuracy vs F1-Macro, matrices de confusión dinámicas y un visor lado a lado de activaciones de atención visual (GradCAM).
