@@ -1,0 +1,157 @@
+# =============================================================================
+# Configuración del Diseño Experimental Multifactorial
+# Proyecto: Mejoramiento de la capacidad de generalización para la detección
+#           de retinopatía diabética mediante módulos de atención CBAM
+# =============================================================================
+
+# Rutas base de los datasets originales
+dataset_paths:
+  aptos: "datasets/aptos"
+  messidor: "datasets/messidor"
+  odir: "datasets/odir"
+
+# Directorio de salida para los experimentos factoriales
+factorial_output_dir: "outputs/factorial_experiments"
+
+# Ruta del archivo ODIR normalizado a nivel imagen/ojo
+odir_processed_path: "data/processed/odir_image_level.csv"
+
+# =============================================================================
+# Diseño factorial
+# =============================================================================
+factorial_experiment:
+  enabled: true
+
+  train_datasets:
+    - aptos
+    - messidor
+    - odir
+
+  test_datasets:
+    - aptos
+    - messidor
+    - odir
+
+  architectures:
+    - base
+    - cbam
+
+  seeds:
+    - 42
+    - 123
+    - 2025
+
+  # Distribución balanceada para el conjunto de test (205 imágenes por dataset)
+  test_distribution:
+    0: 100
+    1: 30
+    2: 50
+    3: 15
+    4: 10
+
+  # Distribución balanceada para train/validation (1539 imágenes por dataset)
+  # Basado en el dataset más limitado (Messidor) luego de separar test
+  trainval_distribution:
+    0: 917
+    1: 230
+    2: 297
+    3: 60
+    4: 25
+
+  # Proporción del split train/validation
+  train_val_split:
+    train: 0.8
+    val: 0.2
+  # Modo de partición de datos para el entrenamiento
+  training_data_mode:
+    # Si es true, usa el train/val balanceado de 1539 imágenes por dataset.
+    balanced_trainval: true
+    # Si es true, ignora balanced_trainval y usa TODAS las imágenes disponibles,
+    # manteniendo el test set balanceado de 205 imágenes.
+    full_trainval_with_balanced_test: false
+
+  # Si es true, omite entrenamiento si ya existe best_model.pt
+  skip_existing: false
+
+# =============================================================================
+# Manejo de desbalance de clases
+# =============================================================================
+imbalance_handling:
+  # Usar class weights en CrossEntropyLoss (OBLIGATORIO según diseño)
+  use_class_weights: true
+
+  # WeightedRandomSampler (opcional, desactivado por defecto)
+  use_weighted_sampler: false
+
+# =============================================================================
+# Configuración de entrenamiento
+# =============================================================================
+training:
+  num_epochs: 20
+  patience: 5
+  batch_size: 32
+  learning_rate: 0.0001
+  # num_workers: usa 4 con DataLoader multiprocess. Requiere proteccion
+  # if __name__ == '__main__' en scripts de entrada.
+  num_workers: 4
+
+# =============================================================================
+# Entrenamiento CBAM en dos fases (warm-up)
+# Solo aplica cuando architecture == 'cbam' y two_phase == true.
+# El entrenamiento base ignora esta seccion completamente.
+# =============================================================================
+cbam_training:
+  two_phase: true
+  # Fase 1 — Warm-up: backbone congelado, solo CBAM + fc
+  warmup_epochs: 5
+  warmup_lr: 0.0001
+  warmup_patience: 5
+  # Fase 2 — Fine-tuning: toda la red, learning rates diferenciados
+  finetune_epochs: 25
+  backbone_lr: 0.00001
+  cbam_lr: 0.0001
+  fc_lr: 0.0001
+  finetune_patience: 5
+
+# =============================================================================
+# Configuración del modelo
+# =============================================================================
+model:
+  type: "resnet50"
+  num_classes: 5
+  pretrained: true
+  use_cbam: false         # Se sobreescribe dinámicamente por arquitectura
+  cbam_reduction: 16
+  cbam_layers:
+    - "layer2"
+    - "layer3"
+    - "layer4"
+
+# =============================================================================
+# Preprocessing
+# =============================================================================
+preprocessing:
+  image_size: 224
+  normalize_mean: [0.485, 0.456, 0.406]
+  normalize_std: [0.229, 0.224, 0.225]
+
+# =============================================================================
+# Configuración de prueba rápida (--quick_test)
+# Usa pocas imágenes y pocas épocas para validar el flujo completo
+# =============================================================================
+quick_test:
+  num_epochs: 1
+  patience: 1
+  batch_size: 8
+  test_distribution:
+    0: 5
+    1: 5
+    2: 5
+    3: 5
+    4: 5
+  trainval_distribution:
+    0: 20
+    1: 20
+    2: 20
+    3: 20
+    4: 20

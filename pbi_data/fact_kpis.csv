@@ -1,0 +1,9 @@
+﻿kpi_name,kpi_value,kpi_unit,kpi_context,kpi_direction
+best_accuracy_intra,85.49,pct,Mejor accuracy en dataset propio (APTOS),higher_better
+best_auc_intra,0.9589,score,Mejor AUC-ROC en dataset propio,higher_better
+accuracy_drop_cross,-10.33,pp,Caída de accuracy al evaluar en datasets externos (Percentage Points),lower_better
+f1_macro_best_baseline,0.6591,score,Mejor F1-Macro entre modelos sin CBAM,higher_better
+f1_macro_worst_baseline,0.2497,score,Peor F1-Macro entre modelos sin CBAM,higher_better
+cbam_avg_f1_improvement_cross,0.0241,score,Mejora promedio en F1-Macro usando CBAM en evaluación cruzada,higher_better
+cbam_params_overhead_pct,10.58,pct,Incremento porcentual en parámetros al agregar CBAM,lower_better
+mild_f1_drop_intra_to_cross,TBD,pct,Caída en F1 para clase Mild NPDR en validación cruzada,lower_better

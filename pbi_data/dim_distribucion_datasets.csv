@@ -1,0 +1,16 @@
+﻿dataset_name,class_id,class_name,count,pct_of_dataset,imbalance_flag
+APTOS,0,No DR,1805,0.4929,1
+APTOS,1,Mild NPDR,370,0.1010,0
+APTOS,2,Moderate NPDR,999,0.2728,0
+APTOS,3,Severe NPDR,193,0.0527,0
+APTOS,4,Proliferative DR,295,0.0806,0
+Messidor,0,No DR,546,0.3131,0
+Messidor,1,Mild NPDR,153,0.0877,0
+Messidor,2,Moderate NPDR,247,0.1416,0
+Messidor,3,Severe NPDR,254,0.1456,0
+Messidor,4,Proliferative DR,544,0.3119,0
+ODIR,0,No DR,3386,0.8465,1
+ODIR,1,Mild NPDR,124,0.0310,0
+ODIR,2,Moderate NPDR,231,0.0578,0
+ODIR,3,Severe NPDR,76,0.0190,0
+ODIR,4,Proliferative DR,183,0.0457,0

@@ -1,0 +1,40 @@
+import torch.nn as nn
+import torch.nn.functional as F
+
+class SimpleCNN(nn.Module):
+    """
+    A basic Convolutional Neural Network for Diabetic Retinopathy classification.
+    """
+    def __init__(self, num_classes=5):
+        super(SimpleCNN, self).__init__()
+        
+        # Input shape: (3, 224, 224)
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, padding=1)
+        self.pool1 = nn.MaxPool2d(kernel_size=2, stride=2) # Output: (32, 112, 112)
+        
+        self.conv2 = nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1)
+        self.pool2 = nn.MaxPool2d(kernel_size=2, stride=2) # Output: (64, 56, 56)
+        
+        self.conv3 = nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3, padding=1)
+        self.pool3 = nn.MaxPool2d(kernel_size=2, stride=2) # Output: (128, 28, 28)
+        
+        self.conv4 = nn.Conv2d(in_channels=128, out_channels=256, kernel_size=3, padding=1)
+        self.pool4 = nn.MaxPool2d(kernel_size=2, stride=2) # Output: (256, 14, 14)
+
+        self.flatten = nn.Flatten()
+        # 256 channels * 14 * 14 spatial dimensions = 50176 features
+        self.fc1 = nn.Linear(256 * 14 * 14, 512)
+        self.dropout = nn.Dropout(0.5)
+        self.fc2 = nn.Linear(512, num_classes)
+        
+    def forward(self, x):
+        x = self.pool1(F.relu(self.conv1(x)))
+        x = self.pool2(F.relu(self.conv2(x)))
+        x = self.pool3(F.relu(self.conv3(x)))
+        x = self.pool4(F.relu(self.conv4(x)))
+        
+        x = self.flatten(x)
+        x = F.relu(self.fc1(x))
+        x = self.dropout(x)
+        x = self.fc2(x)
+        return x

@@ -1,0 +1,32 @@
+# Datasets
+assets/
+datasets/
+data/
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pt
+
+# Model outputs
+checkpoints/
+gradcam/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Mac files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

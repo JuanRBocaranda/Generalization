@@ -1,0 +1,306 @@
+index,image_id,image_path,eye,diagnostic_keywords,diagnosis,source_dataset,split,seed
+3158,3255_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3255_left.jpg,left,normal fundus,0,odir,val,42
+3322,3337_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3337_right.jpg,right,normal fundus,0,odir,val,42
+1341,2346_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2346_right.jpg,right,normal fundus,0,odir,val,42
+1913,2632_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2632_right.jpg,right,normal fundus,0,odir,val,42
+2073,2712_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2712_right.jpg,right,normal fundus,0,odir,val,42
+338,350_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\350_right.jpg,right,normal fundus,0,odir,val,42
+1912,2632_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2632_left.jpg,left,normal fundus,0,odir,val,42
+3395,3374_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3374_left.jpg,left,normal fundus,0,odir,val,42
+2550,2951_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2951_left.jpg,left,normal fundus,0,odir,val,42
+2691,3021_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3021_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+1272,2159_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2159_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+2006,2679_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2679_left.jpg,left,normal fundus,0,odir,val,42
+4259,4338_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4338_right.jpg,right,normal fundus,0,odir,val,42
+2709,3030_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3030_right.jpg,right,normal fundus,0,odir,val,42
+1734,2543_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2543_left.jpg,left,normal fundus,0,odir,val,42
+1462,2407_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2407_left.jpg,left,normal fundus,0,odir,val,42
+2858,3105_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3105_left.jpg,left,normal fundus,0,odir,val,42
+1991,2671_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2671_right.jpg,right,normal fundus,0,odir,val,42
+1721,2536_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2536_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+478,486_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\486_right.jpg,right,normal fundus,0,odir,val,42
+877,869_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\869_left.jpg,left,normal fundus,0,odir,val,42
+4110,4261_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4261_left.jpg,left,normal fundus,0,odir,val,42
+1552,2452_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2452_left.jpg,left,normal fundus,0,odir,val,42
+1771,2561_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2561_right.jpg,right,normal fundus,0,odir,val,42
+1881,2616_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2616_right.jpg,right,normal fundus,0,odir,val,42
+2310,2831_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2831_left.jpg,left,normal fundus,0,odir,val,42
+1537,2444_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2444_right.jpg,right,normal fundus,0,odir,val,42
+3497,3425_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3425_right.jpg,right,normal fundus,0,odir,val,42
+453,463_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\463_right.jpg,right,normal fundus,0,odir,val,42
+2606,2979_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2979_left.jpg,left,normal fundus,0,odir,val,42
+2870,3111_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3111_left.jpg,left,normal fundus,0,odir,val,42
+3352,3352_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3352_right.jpg,right,normal fundus,0,odir,val,42
+3341,3347_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3347_left.jpg,left,normal fundus,0,odir,val,42
+1888,2620_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2620_left.jpg,left,lens dust，normal fundus,0,odir,val,42
+3453,3403_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3403_right.jpg,right,normal fundus,0,odir,val,42
+4050,4230_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4230_left.jpg,left,normal fundus,0,odir,val,42
+2481,2916_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2916_right.jpg,right,normal fundus,0,odir,val,42
+1063,1101_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1101_left.jpg,left,lens dust，normal fundus,0,odir,val,42
+3656,3998_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3998_right.jpg,right,normal fundus,0,odir,val,42
+1054,1089_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1089_left.jpg,left,normal fundus,0,odir,val,42
+1677,2514_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2514_right.jpg,right,normal fundus,0,odir,val,42
+3235,3294_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3294_left.jpg,left,normal fundus,0,odir,val,42
+3024,3188_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3188_left.jpg,left,normal fundus,0,odir,val,42
+1767,2559_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2559_right.jpg,right,normal fundus,0,odir,val,42
+3437,3395_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3395_left.jpg,left,normal fundus,0,odir,val,42
+1391,2371_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2371_right.jpg,right,normal fundus,0,odir,val,42
+3553,3937_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3937_left.jpg,left,normal fundus,0,odir,val,42
+1778,2565_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2565_left.jpg,left,normal fundus,0,odir,val,42
+1194,1490_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1490_left.jpg,left,normal fundus,0,odir,val,42
+2865,3108_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3108_right.jpg,right,normal fundus,0,odir,val,42
+316,329_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\329_right.jpg,right,normal fundus,0,odir,val,42
+1015,1028_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1028_right.jpg,right,normal fundus,0,odir,val,42
+1379,2365_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2365_right.jpg,right,normal fundus,0,odir,val,42
+2505,2928_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2928_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+462,470_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\470_right.jpg,right,normal fundus,0,odir,val,42
+2336,2844_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2844_left.jpg,left,normal fundus,0,odir,val,42
+2139,2745_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2745_right.jpg,right,normal fundus,0,odir,val,42
+1879,2615_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2615_right.jpg,right,normal fundus,0,odir,val,42
+2534,2943_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2943_left.jpg,left,normal fundus,0,odir,val,42
+4180,4298_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4298_left.jpg,left,normal fundus,0,odir,val,42
+774,766_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\766_left.jpg,left,normal fundus,0,odir,val,42
+3074,3213_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3213_left.jpg,left,normal fundus,0,odir,val,42
+1109,1165_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1165_left.jpg,left,normal fundus,0,odir,val,42
+2089,2720_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2720_right.jpg,right,normal fundus,0,odir,val,42
+2233,2792_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2792_right.jpg,right,normal fundus,0,odir,val,42
+2359,2855_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2855_right.jpg,right,normal fundus,0,odir,val,42
+1742,2547_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2547_left.jpg,left,normal fundus,0,odir,val,42
+2453,2902_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2902_right.jpg,right,normal fundus,0,odir,val,42
+1664,2508_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2508_left.jpg,left,normal fundus,0,odir,val,42
+1445,2398_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2398_right.jpg,right,normal fundus,0,odir,val,42
+1827,2589_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2589_right.jpg,right,normal fundus，lens dust,0,odir,val,42
+2638,2995_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2995_left.jpg,left,normal fundus,0,odir,val,42
+3050,3201_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3201_left.jpg,left,normal fundus,0,odir,val,42
+1115,1171_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1171_right.jpg,right,normal fundus,0,odir,val,42
+3362,3357_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3357_right.jpg,right,normal fundus,0,odir,val,42
+2510,2931_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2931_left.jpg,left,normal fundus,0,odir,val,42
+747,737_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\737_left.jpg,left,normal fundus,0,odir,val,42
+2747,3049_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3049_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+2303,2827_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2827_right.jpg,right,normal fundus,0,odir,val,42
+3340,3346_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3346_right.jpg,right,normal fundus,0,odir,val,42
+3084,3218_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3218_left.jpg,left,normal fundus,0,odir,val,42
+2014,2683_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2683_left.jpg,left,normal fundus,0,odir,val,42
+2919,3135_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3135_right.jpg,right,normal fundus,0,odir,val,42
+4434,4440_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4440_left.jpg,left,normal fundus,0,odir,val,42
+1395,2373_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2373_right.jpg,right,normal fundus,0,odir,val,42
+2160,2756_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2756_left.jpg,left,lens dust，normal fundus,0,odir,val,42
+1174,1444_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1444_right.jpg,right,normal fundus,0,odir,val,42
+1713,2532_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2532_right.jpg,right,normal fundus,0,odir,val,42
+1458,2405_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2405_left.jpg,left,normal fundus,0,odir,val,42
+2814,3083_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3083_left.jpg,left,normal fundus,0,odir,val,42
+1456,2404_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2404_left.jpg,left,normal fundus,0,odir,val,42
+1033,1060_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1060_right.jpg,right,normal fundus,0,odir,val,42
+2544,2948_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2948_left.jpg,left,normal fundus,0,odir,val,42
+898,896_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\896_left.jpg,left,normal fundus,0,odir,val,42
+2412,2882_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2882_left.jpg,left,normal fundus,0,odir,val,42
+301,310_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\310_left.jpg,left,normal fundus,0,odir,val,42
+3339,3346_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3346_left.jpg,left,lens dust，normal fundus,0,odir,val,42
+1703,2527_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2527_right.jpg,right,normal fundus,0,odir,val,42
+2164,2758_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2758_left.jpg,left,normal fundus,0,odir,val,42
+572,573_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\573_left.jpg,left,normal fundus,0,odir,val,42
+1469,2410_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2410_right.jpg,right,normal fundus,0,odir,val,42
+2996,3174_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3174_left.jpg,left,normal fundus,0,odir,val,42
+2495,2923_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2923_right.jpg,right,normal fundus,0,odir,val,42
+3441,3397_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3397_left.jpg,left,normal fundus,0,odir,val,42
+420,433_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\433_right.jpg,right,normal fundus,0,odir,val,42
+4516,4489_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4489_left.jpg,left,normal fundus,0,odir,val,42
+3478,3416_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3416_left.jpg,left,normal fundus,0,odir,val,42
+3861,4118_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4118_left.jpg,left,normal fundus,0,odir,val,42
+2499,2925_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2925_right.jpg,right,normal fundus,0,odir,val,42
+2067,2709_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2709_right.jpg,right,normal fundus,0,odir,val,42
+2696,3024_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3024_left.jpg,left,lens dust，normal fundus,0,odir,val,42
+1370,2361_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2361_left.jpg,left,normal fundus,0,odir,val,42
+2462,2907_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2907_left.jpg,left,normal fundus,0,odir,val,42
+1682,2517_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2517_left.jpg,left,normal fundus,0,odir,val,42
+1352,2352_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2352_left.jpg,left,normal fundus,0,odir,val,42
+1955,2653_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2653_right.jpg,right,normal fundus,0,odir,val,42
+1648,2500_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2500_left.jpg,left,normal fundus,0,odir,val,42
+854,843_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\843_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+2860,3106_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3106_left.jpg,left,normal fundus,0,odir,val,42
+816,804_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\804_left.jpg,left,normal fundus,0,odir,val,42
+1535,2443_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2443_right.jpg,right,normal fundus,0,odir,val,42
+3928,4159_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4159_right.jpg,right,normal fundus,0,odir,val,42
+407,422_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\422_right.jpg,right,normal fundus,0,odir,val,42
+3484,3419_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3419_left.jpg,left,normal fundus,0,odir,val,42
+2180,2766_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2766_left.jpg,left,normal fundus,0,odir,val,42
+3479,3416_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3416_right.jpg,right,normal fundus,0,odir,val,42
+783,781_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\781_left.jpg,left,normal fundus,0,odir,val,42
+3220,3286_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3286_right.jpg,right,normal fundus,0,odir,val,42
+472,482_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\482_right.jpg,right,normal fundus,0,odir,val,42
+1698,2525_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2525_left.jpg,left,normal fundus,0,odir,val,42
+3011,3181_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3181_right.jpg,right,normal fundus，lens dust,0,odir,val,42
+3562,3941_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3941_right.jpg,right,normal fundus,0,odir,val,42
+4389,4414_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4414_left.jpg,left,normal fundus,0,odir,val,42
+2103,2727_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2727_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+297,307_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\307_left.jpg,left,normal fundus,0,odir,val,42
+243,253_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\253_right.jpg,right,normal fundus,0,odir,val,42
+852,841_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\841_right.jpg,right,normal fundus,0,odir,val,42
+3313,3333_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3333_left.jpg,left,normal fundus,0,odir,val,42
+3039,3195_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3195_right.jpg,right,normal fundus,0,odir,val,42
+1508,2430_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2430_left.jpg,left,normal fundus,0,odir,val,42
+2796,3074_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3074_left.jpg,left,normal fundus,0,odir,val,42
+1809,2580_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2580_right.jpg,right,normal fundus，lens dust,0,odir,val,42
+2339,2845_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2845_right.jpg,right,normal fundus,0,odir,val,42
+1756,2554_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2554_left.jpg,left,normal fundus,0,odir,val,42
+1408,2380_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2380_left.jpg,left,normal fundus,0,odir,val,42
+621,614_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\614_right.jpg,right,normal fundus,0,odir,val,42
+2274,2813_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2813_left.jpg,left,normal fundus,0,odir,val,42
+3262,3307_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3307_right.jpg,right,normal fundus,0,odir,val,42
+1739,2545_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2545_right.jpg,right,normal fundus,0,odir,val,42
+1963,2657_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2657_right.jpg,right,normal fundus,0,odir,val,42
+2113,2732_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2732_right.jpg,right,normal fundus,0,odir,val,42
+3273,3313_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3313_left.jpg,left,normal fundus,0,odir,val,42
+1515,2433_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2433_right.jpg,right,normal fundus,0,odir,val,42
+1320,2336_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2336_left.jpg,left,normal fundus,0,odir,val,42
+1934,2643_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2643_left.jpg,left,normal fundus,0,odir,val,42
+2279,2815_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2815_right.jpg,right,normal fundus,0,odir,val,42
+292,302_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\302_left.jpg,left,normal fundus,0,odir,val,42
+1160,1421_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1421_right.jpg,right,normal fundus,0,odir,val,42
+1642,2497_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2497_left.jpg,left,normal fundus,0,odir,val,42
+3289,3321_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3321_left.jpg,left,normal fundus,0,odir,val,42
+3454,3404_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3404_left.jpg,left,normal fundus,0,odir,val,42
+3017,3184_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3184_right.jpg,right,normal fundus,0,odir,val,42
+1792,2572_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2572_left.jpg,left,normal fundus,0,odir,val,42
+3329,3341_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3341_left.jpg,left,normal fundus,0,odir,val,42
+1001,1010_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1010_left.jpg,left,normal fundus,0,odir,val,42
+1444,2398_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2398_left.jpg,left,normal fundus,0,odir,val,42
+4606,4544_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4544_right.jpg,right,normal fundus,0,odir,val,42
+4567,4523_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4523_left.jpg,left,normal fundus,0,odir,val,42
+3214,3283_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3283_right.jpg,right,normal fundus，lens dust,0,odir,val,42
+3008,3180_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3180_left.jpg,left,normal fundus,0,odir,val,42
+1337,2344_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2344_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+3949,4172_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4172_right.jpg,right,normal fundus,0,odir,val,42
+657,648_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\648_right.jpg,right,normal fundus,0,odir,val,42
+2382,2867_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2867_left.jpg,left,normal fundus,0,odir,val,42
+3350,3351_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3351_right.jpg,right,normal fundus,0,odir,val,42
+1710,2531_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2531_left.jpg,left,normal fundus,0,odir,val,42
+547,549_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\549_right.jpg,right,normal fundus,0,odir,val,42
+1692,2522_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2522_left.jpg,left,normal fundus,0,odir,val,42
+2304,2828_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2828_left.jpg,left,normal fundus,0,odir,val,42
+1649,2500_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2500_right.jpg,right,normal fundus,0,odir,val,42
+1861,2606_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2606_right.jpg,right,lens dust，normal fundus,0,odir,val,42
+1791,2571_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2571_right.jpg,right,normal fundus，lens dust,0,odir,val,42
+693,685_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\685_right.jpg,right,normal fundus,0,odir,val,42
+4341,4387_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4387_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4583,4532_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4532_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+1014,1024_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1024_right.jpg,right,hypertensive retinopathy，mild nonproliferative retinopathy,1,odir,val,42
+4328,4380_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4380_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4613,4548_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4548_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4505,4481_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4481_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+3703,4028_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4028_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+3590,3957_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3957_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4383,4411_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4411_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+630,621_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\621_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+3560,3940_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3940_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+452,462_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\462_right.jpg,right,mild nonproliferative retinopathy，macular epiretinal membrane,1,odir,val,42
+4152,4283_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4283_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4498,4477_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4477_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4679,4588_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4588_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+515,518_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\518_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+967,962_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\962_left.jpg,left,drusen，mild nonproliferative retinopathy,1,odir,val,42
+4629,4557_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4557_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4669,4583_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4583_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+848,836_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\836_right.jpg,right,white vessel，mild nonproliferative retinopathy,1,odir,val,42
+4262,4340_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4340_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4725,4614_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4614_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4117,4266_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4266_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4454,4452_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4452_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4626,4556_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4556_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4639,4564_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4564_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4665,4578_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4578_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4158,4286_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4286_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+629,621_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\621_left.jpg,left,mild nonproliferative retinopathy，macular epiretinal membrane,1,odir,val,42
+4803,4660_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4660_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4357,4397_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4397_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+565,567_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\567_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4780,4642_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4642_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4326,4379_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4379_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+4480,4468_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4468_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4477,4467_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4467_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+3768,4064_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4064_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4423,4433_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4433_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4361,4399_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4399_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+3760,4059_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4059_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4531,4497_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4497_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4537,4500_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4500_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+418,431_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\431_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+4355,4396_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4396_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+3712,4034_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4034_left.jpg,left,mild nonproliferative retinopathy,1,odir,val,42
+3788,4078_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4078_right.jpg,right,mild nonproliferative retinopathy,1,odir,val,42
+3812,4090_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4090_right.jpg,right,moderate non proliferative retinopathy，hypertensive retinopathy,2,odir,val,42
+940,936_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\936_left.jpg,left,laser spot，moderate non proliferative retinopathy,2,odir,val,42
+4625,4555_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4555_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4437,4441_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4441_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+206,211_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\211_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+4154,4284_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4284_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4194,4305_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4305_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+3708,4032_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4032_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+4199,4307_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4307_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+3549,3934_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3934_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4489,4473_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4473_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+400,415_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\415_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4113,4263_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4263_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+1065,1106_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1106_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+3925,4158_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4158_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+702,692_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\692_left.jpg,left,moderate non proliferative retinopathy，laser spot,2,odir,val,42
+780,778_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\778_left.jpg,left,myelinated nerve fibers，moderate non proliferative retinopathy,2,odir,val,42
+433,442_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\442_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+3780,4073_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4073_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+4593,4538_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4538_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+211,216_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\216_left.jpg,left,epiretinal membrane，moderate non proliferative retinopathy,2,odir,val,42
+474,484_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\484_left.jpg,left,moderate non proliferative retinopathy，epiretinal membrane,2,odir,val,42
+4007,4205_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4205_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+3597,3962_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3962_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+4285,4352_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4352_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+1279,2168_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2168_right.jpg,right,cataract，laser spot，moderate non proliferative retinopathy,2,odir,val,42
+4399,4420_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4420_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+605,601_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\601_left.jpg,left,moderate non proliferative retinopathy，epiretinal membrane,2,odir,val,42
+4105,4258_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4258_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+599,597_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\597_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+3580,3952_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3952_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4819,4676_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4676_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+3950,4173_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4173_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+4652,4572_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4572_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+3649,3995_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3995_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+809,799_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\799_right.jpg,right,moderate non proliferative retinopathy，branch retinal vein occlusion,2,odir,val,42
+4128,4271_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4271_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4565,4520_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4520_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4674,4585_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4585_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4219,4317_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4317_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+1183,1474_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1474_left.jpg,left,glaucoma，moderate non proliferative retinopathy,2,odir,val,42
+3777,4071_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4071_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+3639,3990_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3990_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+3990,4195_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4195_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+604,600_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\600_right.jpg,right,retinal pigment epithelial hypertrophy，moderate non proliferative retinopathy,2,odir,val,42
+1137,1285_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\1285_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+3972,4184_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4184_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4182,4299_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4299_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+4478,4467_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4467_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+4487,4472_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4472_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+3880,4128_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4128_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+398,414_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\414_right.jpg,right,moderate non proliferative retinopathy，laser spot,2,odir,val,42
+336,348_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\348_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+951,948_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\948_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+4359,4398_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4398_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+907,905_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\905_right.jpg,right,moderate non proliferative retinopathy，laser spot,2,odir,val,42
+3914,4151_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4151_right.jpg,right,moderate non proliferative retinopathy,2,odir,val,42
+3871,4123_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4123_left.jpg,left,moderate non proliferative retinopathy,2,odir,val,42
+245,257_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\257_left.jpg,left,moderate non proliferative retinopathy，epiretinal membrane,2,odir,val,42
+4566,4522_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4522_right.jpg,right,severe nonproliferative retinopathy,3,odir,val,42
+4807,4669_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4669_left.jpg,left,severe nonproliferative retinopathy,3,odir,val,42
+3893,4137_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4137_left.jpg,left,severe nonproliferative retinopathy,3,odir,val,42
+3818,4094_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4094_right.jpg,right,severe nonproliferative retinopathy,3,odir,val,42
+3652,3996_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\3996_right.jpg,right,severe nonproliferative retinopathy,3,odir,val,42
+4831,4686_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4686_left.jpg,left,severe nonproliferative retinopathy,3,odir,val,42
+764,755_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\755_left.jpg,left,severe nonproliferative retinopathy,3,odir,val,42
+4366,4401_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4401_right.jpg,right,severe nonproliferative retinopathy,3,odir,val,42
+4236,4326_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4326_right.jpg,right,severe nonproliferative retinopathy,3,odir,val,42
+4558,4515_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4515_left.jpg,left,severe nonproliferative retinopathy,3,odir,val,42
+550,551_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\551_left.jpg,left,severe nonproliferative retinopathy,3,odir,val,42
+965,960_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\960_left.jpg,left,severe nonproliferative retinopathy,3,odir,val,42
+4538,4501_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4501_left.jpg,left,post retinal laser surgery，proliferative diabetic retinopathy,4,odir,val,42
+4539,4501_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4501_right.jpg,right,post retinal laser surgery，proliferative diabetic retinopathy,4,odir,val,42
+4347,4391_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\4391_right.jpg,right,proliferative diabetic retinopathy,4,odir,val,42
+868,861_right.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\861_right.jpg,right,proliferative diabetic retinopathy，hypertensive retinopathy,4,odir,val,42
+1305,2282_left.jpg,C:\Proyecto Integrador 2\retinopathy-generalization\datasets/odir\ODIR-5K_Training_Dataset\2282_left.jpg,left,severe proliferative diabetic retinopathy,4,odir,val,42

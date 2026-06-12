@@ -1,0 +1,879 @@
+{
+  "resumen_ejecutivo": {
+    "total_evaluaciones": 54,
+    "mejor_f1_macro": {
+      "valor": 78.6,
+      "combinacion": {
+        "train": "messidor",
+        "test": "messidor",
+        "architecture": "base",
+        "seed": 123
+      }
+    },
+    "f1_macro_por_arquitectura": {
+      "base": 38.4,
+      "cbam": 33.5,
+      "mejora_cbam_pp": -4.9
+    },
+    "accuracy_por_arquitectura": {
+      "base": 52.6,
+      "cbam": 48.0,
+      "mejora_cbam_pp": -4.6,
+      "brecha_vs_f1_macro": {
+        "base": 14.2,
+        "cbam": 14.5,
+        "interpretacion": "Una brecha positiva indica sesgo hacia clases mayoritarias."
+      }
+    },
+    "auc_por_arquitectura": {
+      "base": 0.75,
+      "cbam": 0.71
+    },
+    "f1_macro_por_dataset_entrenamiento": {
+      "aptos": 32.2,
+      "messidor": 40.7,
+      "odir": 35.0
+    },
+    "accuracy_por_dataset_entrenamiento": {
+      "aptos": 57.9,
+      "messidor": 46.9,
+      "odir": 46.2
+    },
+    "f1_macro_por_semilla": {
+      "42": 34.6,
+      "123": 38.5,
+      "2025": 34.8,
+      "variacion_pp": 3.9
+    },
+    "accuracy_por_semilla": {
+      "42": 48.5,
+      "123": 50.8,
+      "2025": 51.7,
+      "variacion_pp": 3.2
+    }
+  },
+  "generalizacion": {
+    "matriz_base": {
+      "aptos_aptos": 53.9,
+      "aptos_messidor": 27.8,
+      "aptos_odir": 20.4,
+      "messidor_aptos": 28.5,
+      "messidor_messidor": 72.5,
+      "messidor_odir": 31.8,
+      "odir_aptos": 27.4,
+      "odir_messidor": 33.5,
+      "odir_odir": 50.0
+    },
+    "matriz_cbam": {
+      "aptos_aptos": 59.7,
+      "aptos_messidor": 16.7,
+      "aptos_odir": 15.0,
+      "messidor_aptos": 22.4,
+      "messidor_messidor": 60.0,
+      "messidor_odir": 28.9,
+      "odir_aptos": 24.3,
+      "odir_messidor": 26.7,
+      "odir_odir": 48.3
+    },
+    "ganancia_cbam_pp": {
+      "aptos_aptos": 5.8,
+      "aptos_messidor": -11.1,
+      "aptos_odir": -5.4,
+      "messidor_aptos": -6.1,
+      "messidor_messidor": -12.5,
+      "messidor_odir": -2.9,
+      "odir_aptos": -3.1,
+      "odir_messidor": -6.8,
+      "odir_odir": -1.7
+    },
+    "matriz_base_acc": {
+      "aptos_aptos": 75.3,
+      "aptos_messidor": 51.1,
+      "aptos_odir": 48.8,
+      "messidor_aptos": 32.8,
+      "messidor_messidor": 77.2,
+      "messidor_odir": 45.7,
+      "odir_aptos": 42.6,
+      "odir_messidor": 45.5,
+      "odir_odir": 54.6
+    },
+    "matriz_cbam_acc": {
+      "aptos_aptos": 77.1,
+      "aptos_messidor": 47.6,
+      "aptos_odir": 47.5,
+      "messidor_aptos": 23.6,
+      "messidor_messidor": 63.1,
+      "messidor_odir": 38.9,
+      "odir_aptos": 39.2,
+      "odir_messidor": 44.1,
+      "odir_odir": 51.1
+    },
+    "ganancia_cbam_acc_pp": {
+      "aptos_aptos": 1.8,
+      "aptos_messidor": -3.5,
+      "aptos_odir": -1.3,
+      "messidor_aptos": -9.2,
+      "messidor_messidor": -14.1,
+      "messidor_odir": -6.8,
+      "odir_aptos": -3.4,
+      "odir_messidor": -1.4,
+      "odir_odir": -3.5
+    }
+  },
+  "comparativa_modelos": {
+    "f1_por_origen": {
+      "aptos": {
+        "base": 34.0,
+        "cbam": 30.4
+      },
+      "messidor": {
+        "base": 44.3,
+        "cbam": 37.1
+      },
+      "odir": {
+        "base": 36.9,
+        "cbam": 33.1
+      }
+    },
+    "auc_por_dataset_prueba": {
+      "aptos": {
+        "base": 0.76,
+        "cbam": 0.73
+      },
+      "messidor": {
+        "base": 0.78,
+        "cbam": 0.73
+      },
+      "odir": {
+        "base": 0.71,
+        "cbam": 0.68
+      }
+    },
+    "recall_clases_graves_3_4": {
+      "base": 40.8,
+      "cbam": 34.5
+    }
+  },
+  "clases_criticas": {
+    "recall_por_clase": {
+      "base": {
+        "clase_0": 76.1,
+        "clase_1": 24.0,
+        "clase_2": 28.4,
+        "clase_3": 44.9,
+        "clase_4": 36.7
+      },
+      "cbam": {
+        "clase_0": 71.8,
+        "clase_1": 22.7,
+        "clase_2": 22.1,
+        "clase_3": 36.8,
+        "clase_4": 32.2
+      },
+      "mejora_pp": {
+        "clase_0": -4.3,
+        "clase_1": -1.3,
+        "clase_2": -6.3,
+        "clase_3": -8.1,
+        "clase_4": -4.5
+      }
+    },
+    "clase_con_mayor_mejora": "clase_1"
+  },
+  "estabilidad_semillas": {
+    "aptos_base": {
+      "seed_42": 31.4,
+      "seed_123": 36.1,
+      "seed_2025": 34.5,
+      "media": 34.0,
+      "std": 2.0,
+      "rango": 4.7
+    },
+    "aptos_cbam": {
+      "seed_42": 28.5,
+      "seed_123": 32.6,
+      "seed_2025": 30.2,
+      "media": 30.4,
+      "std": 1.7,
+      "rango": 4.1
+    },
+    "messidor_base": {
+      "seed_42": 40.7,
+      "seed_123": 46.0,
+      "seed_2025": 46.1,
+      "media": 44.3,
+      "std": 2.5,
+      "rango": 5.4
+    },
+    "messidor_cbam": {
+      "seed_42": 31.7,
+      "seed_123": 42.6,
+      "seed_2025": 37.1,
+      "media": 37.1,
+      "std": 4.4,
+      "rango": 10.9
+    },
+    "odir_base": {
+      "seed_42": 41.3,
+      "seed_123": 38.5,
+      "seed_2025": 31.0,
+      "media": 36.9,
+      "std": 4.3,
+      "rango": 10.3
+    },
+    "odir_cbam": {
+      "seed_42": 34.0,
+      "seed_123": 35.3,
+      "seed_2025": 30.0,
+      "media": 33.1,
+      "std": 2.3,
+      "rango": 5.3
+    }
+  },
+  "visor_gradcam": {
+    "casos_por_combinacion": {
+      "base_aptos": [
+        {
+          "image_id": "e9faf0296643",
+          "dataset_origen": "aptos",
+          "clase_real": 0,
+          "clase_predicha": 0,
+          "correcto": true,
+          "confianza": 99.78718757629396,
+          "probabilidades": {
+            "clase_0": 0.9978718757629396,
+            "clase_1": 0.0010954472236335,
+            "clase_2": 0.0008045029244385,
+            "clase_3": 0.0001532671740278,
+            "clase_4": 7.499067578464746e-05
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/e9faf0296643.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/base/seed_42/evaluations/test_aptos/gradcam/e9faf0296643_0.png"
+        },
+        {
+          "image_id": "ec4649213ccf",
+          "dataset_origen": "aptos",
+          "clase_real": 1,
+          "clase_predicha": 1,
+          "correcto": true,
+          "confianza": 97.9958474636078,
+          "probabilidades": {
+            "clase_0": 0.0014002831885591,
+            "clase_1": 0.979958474636078,
+            "clase_2": 0.0185133162885904,
+            "clase_3": 4.995247581973672e-05,
+            "clase_4": 7.798898877808824e-05
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/ec4649213ccf.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/base/seed_42/evaluations/test_aptos/gradcam/ec4649213ccf_1.png"
+        },
+        {
+          "image_id": "f3cd489acbee",
+          "dataset_origen": "aptos",
+          "clase_real": 2,
+          "clase_predicha": 2,
+          "correcto": true,
+          "confianza": 97.28136658668518,
+          "probabilidades": {
+            "clase_0": 4.534819527179934e-05,
+            "clase_1": 0.0072557250969111,
+            "clase_2": 0.9728136658668518,
+            "clase_3": 0.0191753599792718,
+            "clase_4": 0.0007099985377863
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/f3cd489acbee.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/base/seed_42/evaluations/test_aptos/gradcam/f3cd489acbee_2.png"
+        },
+        {
+          "image_id": "f64214bed40e",
+          "dataset_origen": "aptos",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 99.86793398857115,
+          "probabilidades": {
+            "clase_0": 1.6562212294957137e-06,
+            "clase_1": 6.485215180873638e-06,
+            "clase_2": 0.0012157699093222,
+            "clase_3": 0.9986793398857116,
+            "clase_4": 9.684369433671236e-05
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/f64214bed40e.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/base/seed_42/evaluations/test_aptos/gradcam/f64214bed40e_3.png"
+        },
+        {
+          "image_id": "f03d3c4ce7fb",
+          "dataset_origen": "aptos",
+          "clase_real": 4,
+          "clase_predicha": 2,
+          "correcto": false,
+          "confianza": 90.3806447982788,
+          "probabilidades": {
+            "clase_0": 0.0006119079189375,
+            "clase_1": 0.0619019716978073,
+            "clase_2": 0.903806447982788,
+            "clase_3": 0.0235142800956964,
+            "clase_4": 0.0101654669269919
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/f03d3c4ce7fb.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/base/seed_42/evaluations/test_aptos/gradcam/f03d3c4ce7fb_2.png"
+        },
+        {
+          "image_id": "fcc6aa6755e6",
+          "dataset_origen": "aptos",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 99.68061447143556,
+          "probabilidades": {
+            "clase_0": 1.9525161405908875e-05,
+            "clase_1": 4.6245750127127394e-05,
+            "clase_2": 0.0029767176602035,
+            "clase_3": 0.9968061447143556,
+            "clase_4": 0.0001514645700808
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/fcc6aa6755e6.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/base/seed_42/evaluations/test_aptos/gradcam/fcc6aa6755e6_3.png"
+        }
+      ],
+      "cbam_aptos": [
+        {
+          "image_id": "f86d1c404acb",
+          "dataset_origen": "aptos",
+          "clase_real": 0,
+          "clase_predicha": 0,
+          "correcto": true,
+          "confianza": 99.53579306602478,
+          "probabilidades": {
+            "clase_0": 0.9953579306602478,
+            "clase_1": 0.0024364243727177,
+            "clase_2": 0.0013800762826576,
+            "clase_3": 0.0002406145213171,
+            "clase_4": 0.000584949622862
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/f86d1c404acb.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/cbam/seed_42/evaluations/test_aptos/gradcam/f86d1c404acb_0.png"
+        },
+        {
+          "image_id": "ec4649213ccf",
+          "dataset_origen": "aptos",
+          "clase_real": 1,
+          "clase_predicha": 1,
+          "correcto": true,
+          "confianza": 92.66666173934937,
+          "probabilidades": {
+            "clase_0": 0.0161020848900079,
+            "clase_1": 0.9266666173934937,
+            "clase_2": 0.0486385785043239,
+            "clase_3": 0.0032201262656599,
+            "clase_4": 0.0053725615143775
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/ec4649213ccf.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/cbam/seed_42/evaluations/test_aptos/gradcam/ec4649213ccf_1.png"
+        },
+        {
+          "image_id": "f8fc411092c7",
+          "dataset_origen": "aptos",
+          "clase_real": 2,
+          "clase_predicha": 2,
+          "correcto": true,
+          "confianza": 83.53651165962219,
+          "probabilidades": {
+            "clase_0": 0.0002544486487749,
+            "clase_1": 0.0445382520556449,
+            "clase_2": 0.8353651165962219,
+            "clase_3": 0.0798149853944778,
+            "clase_4": 0.0400271415710449
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/f8fc411092c7.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/cbam/seed_42/evaluations/test_aptos/gradcam/f8fc411092c7_2.png"
+        },
+        {
+          "image_id": "fcc6aa6755e6",
+          "dataset_origen": "aptos",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 95.6332802772522,
+          "probabilidades": {
+            "clase_0": 7.848706445656717e-05,
+            "clase_1": 0.0001459833292756,
+            "clase_2": 0.0089042130857706,
+            "clase_3": 0.956332802772522,
+            "clase_4": 0.0345384776592254
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/fcc6aa6755e6.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/cbam/seed_42/evaluations/test_aptos/gradcam/fcc6aa6755e6_3.png"
+        },
+        {
+          "image_id": "fa59221cf464",
+          "dataset_origen": "aptos",
+          "clase_real": 4,
+          "clase_predicha": 4,
+          "correcto": true,
+          "confianza": 50.75708627700806,
+          "probabilidades": {
+            "clase_0": 0.0001898728369269,
+            "clase_1": 0.001549823442474,
+            "clase_2": 0.0522281229496002,
+            "clase_3": 0.4384613335132599,
+            "clase_4": 0.5075708627700806
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/fa59221cf464.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/cbam/seed_42/evaluations/test_aptos/gradcam/fa59221cf464_4.png"
+        },
+        {
+          "image_id": "f6f433f3306f",
+          "dataset_origen": "aptos",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 78.68928909301758,
+          "probabilidades": {
+            "clase_0": 0.000593721633777,
+            "clase_1": 0.0017712106928229,
+            "clase_2": 0.1560801863670349,
+            "clase_3": 0.7868928909301758,
+            "clase_4": 0.0546619929373264
+          },
+          "original_image_path": "datasets/aptos/test_images/test_images/f6f433f3306f.png",
+          "gradcam_path": "outputs/factorial_experiments/aptos/cbam/seed_42/evaluations/test_aptos/gradcam/f6f433f3306f_3.png"
+        }
+      ],
+      "base_messidor": [
+        {
+          "image_id": "20060530_53152_0100_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 0,
+          "clase_predicha": 0,
+          "correcto": true,
+          "confianza": 97.62154817581175,
+          "probabilidades": {
+            "clase_0": 0.9762154817581176,
+            "clase_1": 0.0173111669719219,
+            "clase_2": 0.0047024153172969,
+            "clase_3": 0.0002461471303831,
+            "clase_4": 0.0015247570117935
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20060530_53152_0100_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/base/seed_42/evaluations/test_messidor/gradcam/20060530_53152_0100_PP_0.png"
+        },
+        {
+          "image_id": "20051202_55484_0400_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 1,
+          "clase_predicha": 1,
+          "correcto": true,
+          "confianza": 78.42292189598083,
+          "probabilidades": {
+            "clase_0": 0.189410924911499,
+            "clase_1": 0.7842292189598083,
+            "clase_2": 0.025935748592019,
+            "clase_3": 0.000231824000366,
+            "clase_4": 0.0001922746305353
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20051202_55484_0400_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/base/seed_42/evaluations/test_messidor/gradcam/20051202_55484_0400_PP_1.png"
+        },
+        {
+          "image_id": "20060412_58497_0200_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 2,
+          "clase_predicha": 2,
+          "correcto": true,
+          "confianza": 98.3712911605835,
+          "probabilidades": {
+            "clase_0": 0.0019936815369874,
+            "clase_1": 0.0072904312983155,
+            "clase_2": 0.983712911605835,
+            "clase_3": 0.0042308480478823,
+            "clase_4": 0.0027721186634153
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20060412_58497_0200_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/base/seed_42/evaluations/test_messidor/gradcam/20060412_58497_0200_PP_2.png"
+        },
+        {
+          "image_id": "20060411_61478_0200_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 99.78625178337096,
+          "probabilidades": {
+            "clase_0": 9.82926576398313e-06,
+            "clase_1": 8.51725235406775e-06,
+            "clase_2": 0.0006007576012052,
+            "clase_3": 0.9978625178337096,
+            "clase_4": 0.0015183795476332
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20060411_61478_0200_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/base/seed_42/evaluations/test_messidor/gradcam/20060411_61478_0200_PP_3.png"
+        },
+        {
+          "image_id": "IM002487.JPG",
+          "dataset_origen": "messidor",
+          "clase_real": 4,
+          "clase_predicha": 4,
+          "correcto": true,
+          "confianza": 99.99836683273317,
+          "probabilidades": {
+            "clase_0": 1.8154271401726876e-06,
+            "clase_1": 6.070478661968082e-07,
+            "clase_2": 8.390960829274263e-06,
+            "clase_3": 5.541343853110448e-06,
+            "clase_4": 0.9999836683273317
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/IM002487.JPG",
+          "gradcam_path": "outputs/factorial_experiments/messidor/base/seed_42/evaluations/test_messidor/gradcam/IM002487_4.png"
+        },
+        {
+          "image_id": "IM002486.JPG",
+          "dataset_origen": "messidor",
+          "clase_real": 4,
+          "clase_predicha": 4,
+          "correcto": true,
+          "confianza": 99.989652633667,
+          "probabilidades": {
+            "clase_0": 2.228371869250623e-07,
+            "clase_1": 6.662882867658483e-08,
+            "clase_2": 1.7695119822747074e-06,
+            "clase_3": 0.0001013528308249,
+            "clase_4": 0.99989652633667
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/IM002486.JPG",
+          "gradcam_path": "outputs/factorial_experiments/messidor/base/seed_42/evaluations/test_messidor/gradcam/IM002486_4.png"
+        }
+      ],
+      "cbam_messidor": [
+        {
+          "image_id": "IM003989.JPG",
+          "dataset_origen": "messidor",
+          "clase_real": 0,
+          "clase_predicha": 0,
+          "correcto": true,
+          "confianza": 72.08661437034607,
+          "probabilidades": {
+            "clase_0": 0.7208661437034607,
+            "clase_1": 0.1717615574598312,
+            "clase_2": 0.0824914500117302,
+            "clase_3": 0.0072980942204594,
+            "clase_4": 0.0175827797502279
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/IM003989.JPG",
+          "gradcam_path": "outputs/factorial_experiments/messidor/cbam/seed_42/evaluations/test_messidor/gradcam/IM003989_0.png"
+        },
+        {
+          "image_id": "20060412_63104_0200_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 1,
+          "clase_predicha": 1,
+          "correcto": true,
+          "confianza": 56.800758838653564,
+          "probabilidades": {
+            "clase_0": 0.1472181379795074,
+            "clase_1": 0.5680075883865356,
+            "clase_2": 0.2263005524873733,
+            "clase_3": 0.0367296449840068,
+            "clase_4": 0.0217440538108348
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20060412_63104_0200_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/cbam/seed_42/evaluations/test_messidor/gradcam/20060412_63104_0200_PP_1.png"
+        },
+        {
+          "image_id": "20051202_56028_0400_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 2,
+          "clase_predicha": 2,
+          "correcto": true,
+          "confianza": 48.98693561553955,
+          "probabilidades": {
+            "clase_0": 0.1567072123289108,
+            "clase_1": 0.2420275956392288,
+            "clase_2": 0.4898693561553955,
+            "clase_3": 0.0831774473190307,
+            "clase_4": 0.0282183829694986
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20051202_56028_0400_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/cbam/seed_42/evaluations/test_messidor/gradcam/20051202_56028_0400_PP_2.png"
+        },
+        {
+          "image_id": "20060530_54242_0100_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 85.78372001647949,
+          "probabilidades": {
+            "clase_0": 0.0270125027745962,
+            "clase_1": 0.0282987300306558,
+            "clase_2": 0.0665119290351867,
+            "clase_3": 0.8578372001647949,
+            "clase_4": 0.0203396938741207
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20060530_54242_0100_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/cbam/seed_42/evaluations/test_messidor/gradcam/20060530_54242_0100_PP_3.png"
+        },
+        {
+          "image_id": "20051213_62705_0100_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 4,
+          "clase_predicha": 4,
+          "correcto": true,
+          "confianza": 83.45946669578552,
+          "probabilidades": {
+            "clase_0": 0.0449543036520481,
+            "clase_1": 0.0311437267810106,
+            "clase_2": 0.0488619394600391,
+            "clase_3": 0.0404453612864017,
+            "clase_4": 0.8345946669578552
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20051213_62705_0100_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/cbam/seed_42/evaluations/test_messidor/gradcam/20051213_62705_0100_PP_4.png"
+        },
+        {
+          "image_id": "20051214_51609_0100_PP.png",
+          "dataset_origen": "messidor",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 82.29079842567444,
+          "probabilidades": {
+            "clase_0": 0.0069467169232666,
+            "clase_1": 0.0360826067626476,
+            "clase_2": 0.1055116727948188,
+            "clase_3": 0.8229079842567444,
+            "clase_4": 0.0285510346293449
+          },
+          "original_image_path": "datasets/messidor/images/messidor-2/preprocess/20051214_51609_0100_PP.png",
+          "gradcam_path": "outputs/factorial_experiments/messidor/cbam/seed_42/evaluations/test_messidor/gradcam/20051214_51609_0100_PP_3.png"
+        }
+      ],
+      "base_odir": [
+        {
+          "image_id": "3309_right.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 0,
+          "clase_predicha": 0,
+          "correcto": true,
+          "confianza": 87.74992227554321,
+          "probabilidades": {
+            "clase_0": 0.8774992227554321,
+            "clase_1": 0.0661965683102607,
+            "clase_2": 0.0550490878522396,
+            "clase_3": 0.000835194485262,
+            "clase_4": 0.0004199738032184
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/3309_right.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/base/seed_42/evaluations/test_odir/gradcam/3309_right_0.png"
+        },
+        {
+          "image_id": "4258_left.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 1,
+          "clase_predicha": 1,
+          "correcto": true,
+          "confianza": 66.39474630355835,
+          "probabilidades": {
+            "clase_0": 0.1491142511367797,
+            "clase_1": 0.6639474630355835,
+            "clase_2": 0.1848921030759811,
+            "clase_3": 0.0012913163518533,
+            "clase_4": 0.0007549236179329
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/4258_left.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/base/seed_42/evaluations/test_odir/gradcam/4258_left_1.png"
+        },
+        {
+          "image_id": "435_left.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 2,
+          "clase_predicha": 2,
+          "correcto": true,
+          "confianza": 90.54544568061827,
+          "probabilidades": {
+            "clase_0": 0.0452153347432613,
+            "clase_1": 0.0404459722340106,
+            "clase_2": 0.9054544568061828,
+            "clase_3": 0.0081911804154515,
+            "clase_4": 0.0006931268726475
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/435_left.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/base/seed_42/evaluations/test_odir/gradcam/435_left_2.png"
+        },
+        {
+          "image_id": "765_left.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 95.4380989074707,
+          "probabilidades": {
+            "clase_0": 0.0002167689672205,
+            "clase_1": 0.0003475806734059,
+            "clase_2": 0.0143141914159059,
+            "clase_3": 0.954380989074707,
+            "clase_4": 0.0307404976338148
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/765_left.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/base/seed_42/evaluations/test_odir/gradcam/765_left_3.png"
+        },
+        {
+          "image_id": "4002_right.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 4,
+          "clase_predicha": 4,
+          "correcto": true,
+          "confianza": 90.99090695381165,
+          "probabilidades": {
+            "clase_0": 0.0027788474690169,
+            "clase_1": 0.0014372707810252,
+            "clase_2": 0.0126346433535218,
+            "clase_3": 0.073240153491497,
+            "clase_4": 0.9099090695381165
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/4002_right.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/base/seed_42/evaluations/test_odir/gradcam/4002_right_4.png"
+        },
+        {
+          "image_id": "786_left.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 92.2463059425354,
+          "probabilidades": {
+            "clase_0": 0.000646564818453,
+            "clase_1": 0.0016030645929276,
+            "clase_2": 0.0236059911549091,
+            "clase_3": 0.922463059425354,
+            "clase_4": 0.0516812652349472
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/786_left.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/base/seed_42/evaluations/test_odir/gradcam/786_left_3.png"
+        }
+      ],
+      "cbam_odir": [
+        {
+          "image_id": "3309_right.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 0,
+          "clase_predicha": 0,
+          "correcto": true,
+          "confianza": 77.16455459594727,
+          "probabilidades": {
+            "clase_0": 0.7716455459594727,
+            "clase_1": 0.1081086099147796,
+            "clase_2": 0.1079480946063995,
+            "clase_3": 0.0083236992359161,
+            "clase_4": 0.0039740041829645
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/3309_right.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/cbam/seed_42/evaluations/test_odir/gradcam/3309_right_0.png"
+        },
+        {
+          "image_id": "3978_right.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 1,
+          "clase_predicha": 1,
+          "correcto": true,
+          "confianza": 77.89893746376038,
+          "probabilidades": {
+            "clase_0": 0.136346697807312,
+            "clase_1": 0.7789893746376038,
+            "clase_2": 0.0817475840449333,
+            "clase_3": 0.0017341921338811,
+            "clase_4": 0.0011820547515526
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/3978_right.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/cbam/seed_42/evaluations/test_odir/gradcam/3978_right_1.png"
+        },
+        {
+          "image_id": "420_left.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 2,
+          "clase_predicha": 2,
+          "correcto": true,
+          "confianza": 58.90800952911377,
+          "probabilidades": {
+            "clase_0": 0.1300814598798751,
+            "clase_1": 0.2071288526058197,
+            "clase_2": 0.5890800952911377,
+            "clase_3": 0.0615773126482963,
+            "clase_4": 0.0121322991326451
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/420_left.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/cbam/seed_42/evaluations/test_odir/gradcam/420_left_2.png"
+        },
+        {
+          "image_id": "4369_left.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 3,
+          "clase_predicha": 3,
+          "correcto": true,
+          "confianza": 82.780921459198,
+          "probabilidades": {
+            "clase_0": 0.0160433314740657,
+            "clase_1": 0.0304130669683218,
+            "clase_2": 0.0307341311126947,
+            "clase_3": 0.82780921459198,
+            "clase_4": 0.0950002744793891
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/4369_left.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/cbam/seed_42/evaluations/test_odir/gradcam/4369_left_3.png"
+        },
+        {
+          "image_id": "4002_right.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 4,
+          "clase_predicha": 4,
+          "correcto": true,
+          "confianza": 99.64112639427184,
+          "probabilidades": {
+            "clase_0": 0.0002058831159956,
+            "clase_1": 2.4646917154314e-05,
+            "clase_2": 0.0022831528913229,
+            "clase_3": 0.0010752053931355,
+            "clase_4": 0.9964112639427184
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/4002_right.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/cbam/seed_42/evaluations/test_odir/gradcam/4002_right_4.png"
+        },
+        {
+          "image_id": "3994_right.jpg",
+          "dataset_origen": "odir",
+          "clase_real": 4,
+          "clase_predicha": 4,
+          "correcto": true,
+          "confianza": 96.77188396453856,
+          "probabilidades": {
+            "clase_0": 0.0024922476150095,
+            "clase_1": 0.0002863629779312,
+            "clase_2": 0.0205315053462982,
+            "clase_3": 0.008970983326435,
+            "clase_4": 0.9677188396453856
+          },
+          "original_image_path": "datasets/odir/ODIR-5K_Training_Dataset/3994_right.jpg",
+          "gradcam_path": "outputs/factorial_experiments/odir/cbam/seed_42/evaluations/test_odir/gradcam/3994_right_4.png"
+        }
+      ]
+    },
+    "requires_gradcam_generation": [],
+    "confianza_promedio": {
+      "base": {
+        "correctas": 72.2,
+        "incorrectas": 62.4
+      },
+      "cbam": {
+        "correctas": 66.1,
+        "incorrectas": 56.0
+      }
+    },
+    "textos_clinicos": {
+      "clase_0": "Sin hallazgos patológicos. Retina dentro de parámetros normales.",
+      "clase_1": "Microaneurismas aislados. Seguimiento anual recomendado.",
+      "clase_2": "Exudados y hemorragias presentes. Control oftalmológico en 6 meses.",
+      "clase_3": "Neovascularización o hemorragias extensas. Derivación urgente.",
+      "clase_4": "Retinopatía proliferativa activa. Intervención inmediata requerida."
+    }
+  }
+}

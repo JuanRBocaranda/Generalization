@@ -1,0 +1,21 @@
+Timestamp: 2026-06-01T21:00:53.389716
+
+--- Lectura de JSONs ---
+✓ Leído: exp2_aptos_to_aptos/metrics.json
+✓ Leído: exp2_messidor_aptos/metrics.json
+✓ Leído: exp1_aptos_messidor/metrics.json
+✓ Leído: exp3_both_odir/metrics.json
+✓ Leído: exp2_aptos_to_aptos_cbam/metrics.json
+✓ Leído: exp2_messidor_aptos_cbam/metrics.json
+✓ Leído: exp1_aptos_messidor_cbam/metrics.json
+✓ Leído: exp3_both_odir_cbam/metrics.json
+
+--- Resultados de Validación ---
+✓ validación OK
+
+--- Filas Generadas ---
+dim_experimentos.csv: 8
+fact_metricas_clase.csv: 40
+fact_confusion_matrix.csv: 200
+dim_distribucion_datasets.csv: 15
+fact_kpis.csv: 8
